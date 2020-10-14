@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>UPSC Registration</title>
+    </head>
+    <body>
+        <header style="text-align: center;"><h1>UPSC Registration Form</h1></header>
+        <hr>
+        <form action="Complete.html" method="get">
+            <section>
+                <fieldset>
+                    <legend>
+                        student information
+                    </legend>
+                    <label for="name" required placeholder="Enter Full name here">Full Name:</label> 
+                    <input type="text" name="name"> <br> <br>
+                    <label for="email">Enter email address</label> 
+                    <input type="email" name="email"><br> <br>
+                    <label for="country">Country</label>
+                    <input type="text" name="country" readonly value="India"> <br> <br>
+                    <label for="address">Permanant Adress</label>
+                    <textarea name="address" placeholder="address" cols="30" rows="10"></textarea><br> <br>
+                </fieldset>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>
+                        Educational Information
+                    </legend>
+                    <label for="qualification">Qualification</label>
+                    <select required name="qualication" > select one
+                        <option value="BE" selected>BE</option>
+                        <option value="BSC">BSC</option>
+                        <option value="ME">ME</option>
+                        <option value="MBBS">MBBS</option>
+                    </select>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="Branch">Branch</label>
+                    <select required name="qualication" > select one
+                        <option value="Civil">Civil</option>
+                        <option value="Mech">Mech</option>
+                        <option value="CSE" selected>CSE</option>
+                        <option value="IT">IT</option>
+                    </select>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="college">College Name</label>
+                    <input list="colleges" name="college" >
+                    
+                    <datalist id="colleges">
+                        <option value="WCE"></option>
+                        <option value="COEP"></option>
+                        <option value="VJTI">
+                    </datalist>
+                </fieldset>
+            </section>
+            <hr>
+            
+            <section>
+                <fieldset>
+                    <legend>
+                        Exam Preferences
+                    </legend>
+                    <label for="ExamB">Exam Paper Branch</label>
+                    <select name="ExamB" required>
+                        <option value="CSE">CSE</option>
+                        <option value="MECH">MECH</option>
+                        <option value="Civil" selected>Civil</option>
+                        <option value="Electrical">Electrical</option>
+                    </select>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <label for="city">Prefered City for Exam</label>
+                    <select name="city" >
+                        <optgroup label=Maharashtra>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Pune">Pune</option>
+                        </optgroup>
+                        <optgroup label="Karnatka">
+                            <option value="Bengaluru">Bengaluru</option>
+                        </optgroup>
+                        <optgroup label="Tamilnadu">
+                            <option value="Chennai">Chennai</option>
+                            <option value="Vellor">Vellor</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+            </section>
+            <br>
+            <hr>
+            <br>
+            <section>
+                <button type="submit">Submit</button>
+            </section>
+        </form>
+        <footer>
+            <h4>Contact us:</h4>
+            
+            <h4>Email:yashhoke0602@gmail.com</h4>
+        </footer>
+    </body>
+</html>
