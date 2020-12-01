@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  color: rgb(241, 19, 19);
+}
+
+article {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+code{
+  color: blueviolet;
+}
+
+
+footer {
+  color: #a20a0a;
+  text-align: center;
+}
